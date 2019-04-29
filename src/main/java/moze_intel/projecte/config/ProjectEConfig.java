@@ -71,6 +71,12 @@ public final class ProjectEConfig
 		@Config.Comment("Enable a more verbose debug logging")
 		public boolean debugLogging = false;
 
+		@Config.Comment("Separate custom EMC into one file per mod")
+		public boolean separateCustomEMC = false;
+		
+		@Config.Comment("If Enchanted items destroyed at the transmutation table should be learned with enchantments")
+		public boolean learnEnchantedItems = true;
+		
 		@Config.Comment("Show item Ore Dictionary names in tooltips (useful for custom EMC registration)")
 		public boolean odToolTips = false;
 
